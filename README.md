@@ -1,35 +1,43 @@
 # ChatAppWPF
 
-A little chat system with client and local server.
+A simple chat application with a local server and multiple clients.
 
 ## Features
-- Connect with an username
-- See all connected poeple
-- Send messages and see messages from others
 
-## Built with
+- Connect with a username
+- View all connected users
+- Send and receive messages in real time
+
+## Built With
+
 - C#
-- WFP
-- .NET
+- WPF
+- .NET 8
 - TCP Sockets
 
-## Getting started
+## Getting Started
+
 ### Prerequisites
+
 - Visual Studio 2022
 - .NET 8 SDK
 
 ### Installation
-1. Clone the repository
-2. Open the solution in visual studio
-3. Build and run the project
+
+1. Clone the repository.
+2. Open the solution in Visual Studio.
+3. Build and run the project.
 
 ## Usage
-To use the app, we have to run the Client (ChatAppWPF) and the server (ChatServer) then we can create as instances of the client as we want and connect with different usernames.
 
-## Future improvements
-- Private messages
-- Minigames
-- Better interface
+To use the application, start both the **ChatServer** and the **ChatAppWPF** client. You can then launch multiple client instances and connect using different usernames to chat with each other.
 
-## Author 
-Homnix
+## Future Improvements
+
+- Private messaging
+- Mini-games
+- Improved user interface
+
+## Author
+
+**Homnix**
